@@ -1,0 +1,9 @@
+Adafruit-BBIO==1.0.10
+ifaddr==0.2.0
+numpy==1.12.1
+psutil==5.9.2
+pyctrl==0.4.3
+PyVISA==1.10.1
+PyVISA-py==0.4.1
+rcpy==0.5.0
+zeroconf==0.38.4

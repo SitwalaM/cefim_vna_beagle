@@ -23,10 +23,15 @@ The core of communicating with intruments using Standard Commands for Programmab
 
 In this application, the BBB is connected to the VNA via ethernet LAN port. You will have to set the IP address on both the VNA and the BBB to be able to communicate. The VNA IP address is setup as follows: MAIN | System | SYSTEM | Netwk Interface | NETWORK INTERFACE . Further instructions on setting up the IP on the VNA can be found [here](https://dl.cdn-anritsu.com/en-us/test-measurement/ohs/10450-00008L-MS4640A-VectorStar-HELP/index.html#page/Programming_Commands%2FPM_Ch1_GeneralInfo.02.5.html%23).
 
-Similarly, you will have to setup a static IP on the BBB using instructions [here](https://subscription.packtpub.com/book/iot-&-hardware/9781784390204/2/ch02lvl1sec12/setting-up-a-static-ip-on-the-beaglebone). Make sure the IPs on the VNA and the BBB are on the same networks. You can test connectivity by pinging the VNA.
+<div align="center">
+  
+![](images/vna_network.PNG)
+  
+</div>
 
+Similarly, you will have to setup a static IP on the BBB using instructions [here](https://subscription.packtpub.com/book/iot-&-hardware/9781784390204/2/ch02lvl1sec12/setting-up-a-static-ip-on-the-beaglebone). Make sure the IPs on the VNA and the BBB are on the same networks. You can test connectivity by pinging the VNA.
 
 # 3. Getting Instrument Name
 
 
-# 4. Useful Documentation
+

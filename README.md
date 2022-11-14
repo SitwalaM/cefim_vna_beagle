@@ -31,7 +31,25 @@ In this application, the BBB is connected to the VNA via ethernet LAN port. You 
 
 Similarly, you will have to setup a static IP on the BBB using instructions [here](https://subscription.packtpub.com/book/iot-&-hardware/9781784390204/2/ch02lvl1sec12/setting-up-a-static-ip-on-the-beaglebone). Make sure the IPs on the VNA and the BBB are on the same networks. You can test connectivity by pinging the VNA.
 
-# 3. Getting Instrument Name
+# 3. Getting Instrument Connection ID
 
+The instrument should show up with the following commands;
 
+```bash
+# list connections using pyvisa
+import pyvisa
 
+rm = pyvisa.ResourceManager()
+print(rm.list_resources())
+```
+However, if this doesn't work, you will need to get the instrument connection ID on your PC using the [NI VISA](https://www.ni.com/en-za/support/downloads/drivers/download.ni-visa.html#460225). In my case the instrument name was 'TCPIP0::10.0.0.2::5001::SOCKET'. I was then able to setup the connection using:
+
+```bash
+# list connections using pyvisa
+import pyvisa
+
+rm = pyvisa.ResourceManager()
+inst = rm.open_resource('TCPIP0::10.0.0.2::5001::SOCKET')
+# print instrument IDN
+print(inst.query("*IDN?"))
+```

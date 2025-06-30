@@ -29,7 +29,7 @@ In this application, the BBB is connected to the VNA via ethernet LAN port. You 
   
 </div>
 
-Similarly, you will have to setup a static IP on the BBB using instructions [here](https://subscription.packtpub.com/book/iot-&-hardware/9781784390204/2/ch02lvl1sec12/setting-up-a-static-ip-on-the-beaglebone). Make sure the IPs on the VNA and the BBB are on the same networks. You can test connectivity by pinging the VNA.
+Similarly, you will have to setup a static IP on the BBB using instructions [here](https://ofitselfso.com/Beagle/NetworkingSetupConnectingTheBeagleboneBlack.php#:~:text=The%20ethernet%20cable%20should%20be,prompt%20on%20the%20LXDE%20Window.). Make sure the IPs on the VNA and the BBB are on the same networks. You can test connectivity by pinging the VNA.
 
 # 3. Getting Instrument Connection ID
 

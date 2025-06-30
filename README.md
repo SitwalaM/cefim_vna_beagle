@@ -21,7 +21,7 @@ The core of communicating with intruments using Standard Commands for Programmab
 
 # 2. Networking Setup for VNA and Board
 
-In this application, the BBB is connected to the VNA via ethernet LAN port. You will have to set the IP address on both the VNA and the BBB to be able to communicate. The VNA IP address is setup as follows: MAIN | System | SYSTEM | Netwk Interface | NETWORK INTERFACE . Further instructions on setting up the IP on the VNA can be found [here](https://dl.cdn-anritsu.com/en-us/test-measurement/ohs/10450-00008L-MS4640A-VectorStar-HELP/index.html#page/Programming_Commands%2FPM_Ch1_GeneralInfo.02.5.html%23).
+In this application, the BBB is connected to the VNA via ethernet LAN port. You will have to set the IP address on both the VNA and the BBB to be able to communicate. The VNA IP address is setup as follows: MAIN | System | SYSTEM | Netwk Interface | NETWORK INTERFACE . Further instructions on setting up the IP on the VNA can be found [here](https://dl.cdn-anritsu.com/en-us/test-measurement/files/Manuals/Operation-Manual/10410-00266L.pdf). (Section 2-18)
 
 <div align="center">
   
